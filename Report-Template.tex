@@ -1,0 +1,58 @@
+% Report template 
+% Author : Chittaro Hugo
+
+%Init
+\documentclass[11pt, a4paper]{article}
+\usepackage{ae,lmodern}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+%Package
+\usepackage[margin=3cm]{geometry} % Set margin to full page
+
+\renewcommand{\baselinestretch}{1.25} % Spaceing between line
+
+%Images
+\usepackage{graphicx} %Include Image
+\graphicspath{ {./img/} }
+
+\usepackage{wrapfig} % Wrap text around
+
+% Header 
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Header right}
+\lhead{Header left}
+
+% Resize tab
+
+\usepackage{adjustbox}
+
+
+\author{author}
+\title{title}
+\date{date}
+
+\begin{document}
+
+    %title
+    \maketitle
+
+    \hrulefill
+
+    % Intro
+    \begin{abstract}
+        abstract
+    \end{abstract}
+
+    \hrulefill
+
+
+    \section{Section 1}
+
+    \subsection*{Sub}
+        
+    
+\end{document}
